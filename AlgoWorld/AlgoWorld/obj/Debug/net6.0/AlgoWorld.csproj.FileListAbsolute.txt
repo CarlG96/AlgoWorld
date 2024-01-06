@@ -1,0 +1,14 @@
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\bin\Debug\net6.0\AlgoWorld.exe
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\bin\Debug\net6.0\AlgoWorld.deps.json
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\bin\Debug\net6.0\AlgoWorld.runtimeconfig.json
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\bin\Debug\net6.0\AlgoWorld.dll
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\bin\Debug\net6.0\AlgoWorld.pdb
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\AlgoWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\AlgoWorld.AssemblyInfoInputs.cache
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\AlgoWorld.AssemblyInfo.cs
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\AlgoWorld.csproj.CoreCompileInputs.cache
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\AlgoWorld.dll
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\refint\AlgoWorld.dll
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\AlgoWorld.pdb
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\AlgoWorld.genruntimeconfig.cache
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\obj\Debug\net6.0\ref\AlgoWorld.dll
