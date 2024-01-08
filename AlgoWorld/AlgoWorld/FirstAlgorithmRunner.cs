@@ -3,19 +3,42 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace AlgoWorld
 {
-    public class FirstAlgorithmRunner
+
+    public interface IFirstAlgorithmRunner
+    {
+        public bool Run();
+        public Character[] GenerateCharacters();
+
+        public bool CheckForNameDuplication();
+    }
+    public class FirstAlgorithmRunner : IFirstAlgorithmRunner
     {
         private Character[]? _characters;
-        public void Run()
+        public bool Run()
         {
-            generateCharacters();
-            Console.WriteLine(this._characters[0].GetName() + this._characters[0].GetRace() + this._characters[0].GetLevel());
+            _characters = GenerateCharacters();
+            return CheckForNameDuplication();
         }
 
-        private void generateCharacters()
+        public Character[] GenerateCharacters()
         {
-            this._characters = new Character[] {new Character("Algor Riddime", Race.Human, 25), new Character("Dator Structor", Race.Dwarf, 38), new Character("Big Graff", Race.Giant, 12), new Character("Small Graff", Race.Halfling, 88) };
+            return new Character[] {new Character("Algor Riddime", Race.Human, 25), new Character("Algor Riddime", Race.Dwarf, 38), new Character("Big Graff", Race.Giant, 12), new Character("Small Graff", Race.Halfling, 88) };
+        }
 
+        public bool CheckForNameDuplication()
+        {
+            Dictionary<string, int> namesAlreadySeen = new Dictionary<string, int>();
+            for(int i = 0; i < _characters?.Length; i++)
+            {
+                if (namesAlreadySeen.ContainsKey(_characters[i]?.GetName())){
+                    return true;
+                }
+                else
+                {
+                    namesAlreadySeen.Add(_characters[i]?.GetName(), 1);
+                }
+            }
+            return false;
         }
     }
 }
