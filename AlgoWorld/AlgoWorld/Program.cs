@@ -11,7 +11,7 @@ namespace AlgoWorld
              * Given an array of characters in AlgoWorld, return true if any character name
              * appears twice in the array, and return false if every character name in the array is distinct */
             UniqueNameChecker uniqueNameChecker = new UniqueNameChecker();
-            uniqueNameChecker.Run();
+            uniqueNameChecker.CheckForNameDuplication();
             /* Second algorithm to run
              * There are spies hiding throughout all of AlgoWorld! The spies aren't too sneaky though,
              * with their true identities being easy to work out becuase they always use anagrams of their
@@ -20,8 +20,8 @@ namespace AlgoWorld
              * and the true identity are one and the same by seeing if the spy name and the true identity names are
              * angrams of eachother
              */
-            AnagramChecker anagramChecker() = new anagramChecker();
-            anagramChecker().Run();
+            AnagramChecker anagramChecker = new AnagramChecker();
+            anagramChecker.CheckAnagram("a", "b");
         }
     }
 }

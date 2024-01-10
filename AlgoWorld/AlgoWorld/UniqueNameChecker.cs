@@ -6,7 +6,6 @@ namespace AlgoWorld
 
     public interface IUniqueNameChecker
     {
-        public bool Run();
         public void SetCharacters(Character[] characters);
 
         public bool CheckForNameDuplication();
@@ -14,10 +13,6 @@ namespace AlgoWorld
     public class UniqueNameChecker : IUniqueNameChecker
     {
         private Character[]? _characters;
-        public bool Run()
-        {
-            return CheckForNameDuplication();
-        }
 
         public void SetCharacters(Character[] characters)
         {
