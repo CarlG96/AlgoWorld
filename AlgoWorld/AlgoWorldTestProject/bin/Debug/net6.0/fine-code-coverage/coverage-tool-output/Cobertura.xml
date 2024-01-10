@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.692307692307692" branch-rate="0.6" lines-covered="27" lines-valid="39" branches-covered="6" branches-valid="10" complexity="17" version="0" timestamp="1704704865">
+<coverage line-rate="0.710526315789474" branch-rate="0.7" lines-covered="27" lines-valid="38" branches-covered="7" branches-valid="10" complexity="17" version="0" timestamp="1704881058">
   <sources>
     <source>C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\</source>
   </sources>
   <packages>
-    <package name="AlgoWorld" line-rate="0.692307692307692" branch-rate="0.6" complexity="17">
+    <package name="AlgoWorld" line-rate="0.710526315789474" branch-rate="0.7" complexity="17">
       <classes>
         <class name="AlgoWorld.Character" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\Character.cs" line-rate="0.6" branch-rate="1" complexity="4">
           <methods>
             <method name="GetName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="30" hits="3" branch="false" />
-                <line number="31" hits="3" branch="false" />
-                <line number="32" hits="3" branch="false" />
+                <line number="30" hits="9" branch="false" />
+                <line number="31" hits="9" branch="false" />
+                <line number="32" hits="9" branch="false" />
               </lines>
             </method>
             <method name="GetRace" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -32,25 +32,25 @@
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="6" branch="false" />
-                <line number="23" hits="6" branch="false" />
-                <line number="24" hits="6" branch="false" />
-                <line number="25" hits="6" branch="false" />
-                <line number="26" hits="6" branch="false" />
-                <line number="27" hits="6" branch="false" />
+                <line number="22" hits="5" branch="false" />
+                <line number="23" hits="5" branch="false" />
+                <line number="24" hits="5" branch="false" />
+                <line number="25" hits="5" branch="false" />
+                <line number="26" hits="5" branch="false" />
+                <line number="27" hits="5" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="22" hits="6" branch="false" />
-            <line number="23" hits="6" branch="false" />
-            <line number="24" hits="6" branch="false" />
-            <line number="25" hits="6" branch="false" />
-            <line number="26" hits="6" branch="false" />
-            <line number="27" hits="6" branch="false" />
-            <line number="30" hits="3" branch="false" />
-            <line number="31" hits="3" branch="false" />
-            <line number="32" hits="3" branch="false" />
+            <line number="22" hits="5" branch="false" />
+            <line number="23" hits="5" branch="false" />
+            <line number="24" hits="5" branch="false" />
+            <line number="25" hits="5" branch="false" />
+            <line number="26" hits="5" branch="false" />
+            <line number="27" hits="5" branch="false" />
+            <line number="30" hits="9" branch="false" />
+            <line number="31" hits="9" branch="false" />
+            <line number="32" hits="9" branch="false" />
             <line number="35" hits="0" branch="false" />
             <line number="36" hits="0" branch="false" />
             <line number="37" hits="0" branch="false" />
@@ -59,60 +59,58 @@
             <line number="42" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AlgoWorld.FirstAlgorithmRunner" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\FirstAlgorithmRunner.cs" line-rate="0.947368421052632" branch-rate="0.6" complexity="12">
+        <class name="AlgoWorld.FirstAlgorithmRunner" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\FirstAlgorithmRunner.cs" line-rate="1" branch-rate="0.7" complexity="12">
           <methods>
             <method name="Run" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="1" branch="false" />
-                <line number="19" hits="1" branch="false" />
-                <line number="20" hits="1" branch="false" />
-                <line number="21" hits="1" branch="false" />
+                <line number="18" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
               </lines>
             </method>
-            <method name="GenerateCharacters" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="SetCharacters" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="1" branch="false" />
-                <line number="25" hits="1" branch="false" />
-                <line number="26" hits="1" branch="false" />
+                <line number="24" hits="2" branch="false" />
+                <line number="25" hits="2" branch="false" />
+                <line number="26" hits="2" branch="false" />
               </lines>
             </method>
-            <method name="CheckForNameDuplication" signature="()" line-rate="0.916666666666667" branch-rate="0.6" complexity="10">
+            <method name="CheckForNameDuplication" signature="()" line-rate="1" branch-rate="0.7" complexity="10">
               <lines>
-                <line number="29" hits="1" branch="false" />
-                <line number="30" hits="1" branch="false" />
-                <line number="31" hits="4" branch="true" condition-coverage="50% (2/4)" />
-                <line number="32" hits="2" branch="false" />
-                <line number="33" hits="3" branch="true" condition-coverage="75% (3/4)" />
+                <line number="29" hits="2" branch="false" />
+                <line number="30" hits="2" branch="false" />
+                <line number="31" hits="12" branch="true" condition-coverage="75% (3/4)" />
+                <line number="32" hits="5" branch="false" />
+                <line number="33" hits="6" branch="true" condition-coverage="75% (3/4)" />
                 <line number="34" hits="1" branch="false" />
-                <line number="37" hits="1" branch="false" />
-                <line number="38" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="39" hits="1" branch="false" />
-                <line number="40" hits="1" branch="false" />
-                <line number="41" hits="0" branch="false" />
-                <line number="42" hits="1" branch="false" />
+                <line number="37" hits="4" branch="false" />
+                <line number="38" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="39" hits="4" branch="false" />
+                <line number="40" hits="4" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="2" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="18" hits="1" branch="false" />
-            <line number="19" hits="1" branch="false" />
-            <line number="20" hits="1" branch="false" />
-            <line number="21" hits="1" branch="false" />
-            <line number="24" hits="1" branch="false" />
-            <line number="25" hits="1" branch="false" />
-            <line number="26" hits="1" branch="false" />
-            <line number="29" hits="1" branch="false" />
-            <line number="30" hits="1" branch="false" />
-            <line number="31" hits="4" branch="true" condition-coverage="50% (2/4)" />
-            <line number="32" hits="2" branch="false" />
-            <line number="33" hits="3" branch="true" condition-coverage="75% (3/4)" />
+            <line number="18" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="24" hits="2" branch="false" />
+            <line number="25" hits="2" branch="false" />
+            <line number="26" hits="2" branch="false" />
+            <line number="29" hits="2" branch="false" />
+            <line number="30" hits="2" branch="false" />
+            <line number="31" hits="12" branch="true" condition-coverage="75% (3/4)" />
+            <line number="32" hits="5" branch="false" />
+            <line number="33" hits="6" branch="true" condition-coverage="75% (3/4)" />
             <line number="34" hits="1" branch="false" />
-            <line number="37" hits="1" branch="false" />
-            <line number="38" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="39" hits="1" branch="false" />
-            <line number="40" hits="1" branch="false" />
-            <line number="41" hits="0" branch="false" />
-            <line number="42" hits="1" branch="false" />
+            <line number="37" hits="4" branch="false" />
+            <line number="38" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="39" hits="4" branch="false" />
+            <line number="40" hits="4" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="2" branch="false" />
           </lines>
         </class>
         <class name="AlgoWorld.Program" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\Program.cs" line-rate="0" branch-rate="1" complexity="1">

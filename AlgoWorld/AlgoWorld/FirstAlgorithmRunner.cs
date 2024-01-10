@@ -7,7 +7,7 @@ namespace AlgoWorld
     public interface IFirstAlgorithmRunner
     {
         public bool Run();
-        public Character[] GenerateCharacters();
+        public void SetCharacters(Character[] characters);
 
         public bool CheckForNameDuplication();
     }
@@ -16,13 +16,13 @@ namespace AlgoWorld
         private Character[]? _characters;
         public bool Run()
         {
-            _characters = GenerateCharacters();
+            
             return CheckForNameDuplication();
         }
 
-        public Character[] GenerateCharacters()
+        public void SetCharacters(Character[] characters)
         {
-            return new Character[] {new Character("Algor Riddime", Race.Human, 25), new Character("Algor Riddime", Race.Dwarf, 38), new Character("Big Graff", Race.Giant, 12), new Character("Small Graff", Race.Halfling, 88) };
+            _characters = characters;
         }
 
         public bool CheckForNameDuplication()

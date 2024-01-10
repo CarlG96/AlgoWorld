@@ -10,6 +10,7 @@ namespace AlgoWorldTestProject
         public void ShouldReturnFalseInNormalRun()
         {
             FirstAlgorithmRunner firstAlgorithmRunner = new FirstAlgorithmRunner();
+            firstAlgorithmRunner.SetCharacters(new Character[] { new Character("Algor Riddime", Race.Human, 25), new Character("Big Graff", Race.Giant, 12), new Character("Small Graff", Race.Halfling, 88) });
             bool value = firstAlgorithmRunner.Run();
             value.Should().BeFalse();
         }
@@ -17,13 +18,10 @@ namespace AlgoWorldTestProject
         [Fact]
         public void ShouldReturnTrueWhenThereAreDuplicateNames()
         {
-            Mock<IFirstAlgorithmRunner> firstAlgorithmRunner = new Mock<IFirstAlgorithmRunner>();
-            firstAlgorithmRunner.Setup(m => m.GenerateCharacters()).Returns(new Character[]
-            {
-                new Character("Algor Riddime", Race.Human, 10),
-                new Character("Algor Riddime", Race.Human, 10)
-            });
-            bool value = firstAlgorithmRunner.Object.Run();
+            FirstAlgorithmRunner firstAlgorithmRunner = new FirstAlgorithmRunner();
+            firstAlgorithmRunner.SetCharacters(new Character[] { new Character("Algor Riddime", Race.Human, 25), new Character("Algor Riddime", Race.Human, 25) });
+
+            bool value = firstAlgorithmRunner.Run();
             value.Should().BeTrue();
         }
     }
