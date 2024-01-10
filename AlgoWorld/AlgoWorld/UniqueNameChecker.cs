@@ -4,19 +4,18 @@ using System.Security.Cryptography.X509Certificates;
 namespace AlgoWorld
 {
 
-    public interface IFirstAlgorithmRunner
+    public interface IUniqueNameChecker
     {
         public bool Run();
         public void SetCharacters(Character[] characters);
 
         public bool CheckForNameDuplication();
     }
-    public class FirstAlgorithmRunner : IFirstAlgorithmRunner
+    public class UniqueNameChecker : IUniqueNameChecker
     {
         private Character[]? _characters;
         public bool Run()
         {
-            
             return CheckForNameDuplication();
         }
 

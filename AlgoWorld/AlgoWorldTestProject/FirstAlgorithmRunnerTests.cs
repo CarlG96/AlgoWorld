@@ -9,19 +9,19 @@ namespace AlgoWorldTestProject
         [Fact]
         public void ShouldReturnFalseInNormalRun()
         {
-            FirstAlgorithmRunner firstAlgorithmRunner = new FirstAlgorithmRunner();
-            firstAlgorithmRunner.SetCharacters(new Character[] { new Character("Algor Riddime", Race.Human, 25), new Character("Big Graff", Race.Giant, 12), new Character("Small Graff", Race.Halfling, 88) });
-            bool value = firstAlgorithmRunner.Run();
+            UniqueNameChecker uniqueNameChecker = new UniqueNameChecker();
+            uniqueNameChecker.SetCharacters(new Character[] { new Character("Algor Riddime", Race.Human, 25), new Character("Big Graff", Race.Giant, 12), new Character("Small Graff", Race.Halfling, 88) });
+            bool value = uniqueNameChecker.Run();
             value.Should().BeFalse();
         }
 
         [Fact]
         public void ShouldReturnTrueWhenThereAreDuplicateNames()
         {
-            FirstAlgorithmRunner firstAlgorithmRunner = new FirstAlgorithmRunner();
-            firstAlgorithmRunner.SetCharacters(new Character[] { new Character("Algor Riddime", Race.Human, 25), new Character("Algor Riddime", Race.Human, 25) });
+            UniqueNameChecker uniqueNameChecker = new UniqueNameChecker();
+            uniqueNameChecker.SetCharacters(new Character[] { new Character("Algor Riddime", Race.Human, 25), new Character("Algor Riddime", Race.Human, 25) });
 
-            bool value = firstAlgorithmRunner.Run();
+            bool value = uniqueNameChecker.Run();
             value.Should().BeTrue();
         }
     }
