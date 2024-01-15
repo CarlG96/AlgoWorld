@@ -9,7 +9,23 @@
     {
         public bool CheckAnagram(string spyName, string name)
         {
-            return true;
+            string newName = "";
+
+            if (spyName.Length != name.Length)
+            {
+                return false;
+            }
+            for(int i = 0; i < spyName.Length; i++)
+            {
+                if (name.Contains(spyName[i]))
+                {
+                    name.Remove(name.IndexOf(spyName[i]), 1);
+                    newName += spyName[i];
+                }
+            }
+
+            return (newName.Length == spyName.Length)?  true : false;
+
         }
     }
 }

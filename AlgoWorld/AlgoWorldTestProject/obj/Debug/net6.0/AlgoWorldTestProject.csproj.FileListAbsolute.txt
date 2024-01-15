@@ -112,3 +112,4 @@ C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\Algo
 C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorldTestProject\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
 C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorldTestProject\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorldTestProject\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorldTestProject\obj\Debug\net6.0\AlgoWorldTestProject.sourcelink.json

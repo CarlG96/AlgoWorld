@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgoWorld")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3619b975dbc8893aeb240745d00275f6d021c158")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgoWorld")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgoWorld")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
