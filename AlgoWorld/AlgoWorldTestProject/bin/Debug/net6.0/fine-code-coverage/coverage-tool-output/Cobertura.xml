@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.75" branch-rate="0.833333333333333" lines-covered="39" lines-valid="52" branches-covered="15" branches-valid="18" complexity="24" version="0" timestamp="1705345359">
+<coverage line-rate="0.813186813186813" branch-rate="0.90625" lines-covered="74" lines-valid="91" branches-covered="29" branches-valid="32" complexity="40" version="0" timestamp="1705936908">
   <sources>
     <source>C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\</source>
   </sources>
   <packages>
-    <package name="AlgoWorld" line-rate="0.75" branch-rate="0.833333333333333" complexity="24">
+    <package name="AlgoWorld" line-rate="0.813186813186813" branch-rate="0.90625" complexity="40">
       <classes>
         <class name="AlgoWorld.AnagramChecker" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\AnagramChecker.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
@@ -99,6 +99,56 @@
             <line number="42" hits="0" branch="false" />
           </lines>
         </class>
+        <class name="AlgoWorld.PerformantHeroLevelFinder" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\PerformantHeroLevelFinder.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="FindHeroIndexes" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="11" hits="3" branch="false" />
+                <line number="12" hits="3" branch="false" />
+                <line number="14" hits="30" branch="true" condition-coverage="100% (2/2)" />
+                <line number="15" hits="14" branch="false" />
+                <line number="16" hits="14" branch="false" />
+                <line number="18" hits="14" branch="true" condition-coverage="100% (2/2)" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="22" hits="12" branch="true" condition-coverage="100% (2/2)" />
+                <line number="23" hits="12" branch="false" />
+                <line number="24" hits="12" branch="false" />
+                <line number="25" hits="12" branch="false" />
+                <line number="28" hits="12" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="3" branch="false" />
+                <line number="7" hits="3" branch="false" />
+                <line number="8" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="3" branch="false" />
+            <line number="7" hits="3" branch="false" />
+            <line number="8" hits="3" branch="false" />
+            <line number="11" hits="3" branch="false" />
+            <line number="12" hits="3" branch="false" />
+            <line number="14" hits="30" branch="true" condition-coverage="100% (2/2)" />
+            <line number="15" hits="14" branch="false" />
+            <line number="16" hits="14" branch="false" />
+            <line number="18" hits="14" branch="true" condition-coverage="100% (2/2)" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="22" hits="12" branch="true" condition-coverage="100% (2/2)" />
+            <line number="23" hits="12" branch="false" />
+            <line number="24" hits="12" branch="false" />
+            <line number="25" hits="12" branch="false" />
+            <line number="28" hits="12" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="3" branch="false" />
+          </lines>
+        </class>
         <class name="AlgoWorld.Program" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
@@ -109,7 +159,11 @@
                 <line number="14" hits="0" branch="false" />
                 <line number="23" hits="0" branch="false" />
                 <line number="24" hits="0" branch="false" />
-                <line number="25" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
@@ -120,7 +174,11 @@
             <line number="14" hits="0" branch="false" />
             <line number="23" hits="0" branch="false" />
             <line number="24" hits="0" branch="false" />
-            <line number="25" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
           </lines>
         </class>
         <class name="AlgoWorld.UniqueNameChecker" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\UniqueNameChecker.cs" line-rate="1" branch-rate="0.7" complexity="11">
@@ -165,6 +223,54 @@
             <line number="34" hits="4" branch="false" />
             <line number="35" hits="1" branch="false" />
             <line number="36" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="AlgoWorld.UnperformantHeroLevelFinder" filename="C:\Users\CGardiner\Documents\Data_Structures_And_Algorithms_Proof\AlgoWorld\AlgoWorld\AlgoWorld\UnperformantHeroLevelFinder.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="FindHeroIndexes" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="14" hits="3" branch="false" />
+                <line number="15" hits="18" branch="true" condition-coverage="100% (2/2)" />
+                <line number="16" hits="8" branch="false" />
+                <line number="17" hits="100" branch="true" condition-coverage="100% (2/2)" />
+                <line number="18" hits="44" branch="false" />
+                <line number="19" hits="44" branch="true" condition-coverage="100% (2/2)" />
+                <line number="20" hits="36" branch="false" />
+                <line number="21" hits="38" branch="true" condition-coverage="100% (2/2)" />
+                <line number="22" hits="2" branch="false" />
+                <line number="24" hits="34" branch="false" />
+                <line number="25" hits="42" branch="false" />
+                <line number="26" hits="6" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="3" branch="false" />
+                <line number="10" hits="3" branch="false" />
+                <line number="11" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="3" branch="false" />
+            <line number="10" hits="3" branch="false" />
+            <line number="11" hits="3" branch="false" />
+            <line number="14" hits="3" branch="false" />
+            <line number="15" hits="18" branch="true" condition-coverage="100% (2/2)" />
+            <line number="16" hits="8" branch="false" />
+            <line number="17" hits="100" branch="true" condition-coverage="100% (2/2)" />
+            <line number="18" hits="44" branch="false" />
+            <line number="19" hits="44" branch="true" condition-coverage="100% (2/2)" />
+            <line number="20" hits="36" branch="false" />
+            <line number="21" hits="38" branch="true" condition-coverage="100% (2/2)" />
+            <line number="22" hits="2" branch="false" />
+            <line number="24" hits="34" branch="false" />
+            <line number="25" hits="42" branch="false" />
+            <line number="26" hits="6" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="3" branch="false" />
           </lines>
         </class>
       </classes>

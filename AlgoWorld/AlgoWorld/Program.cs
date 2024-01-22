@@ -29,6 +29,10 @@ namespace AlgoWorld
              * However, you do know that two of the heroe's levels will add up to the value. You need to create an 
              * algorithm to return the index of the two heroes in the list.
              */
+            UnperformantHeroLevelFinder badHeroFinder = new UnperformantHeroLevelFinder();
+            badHeroFinder.FindHeroIndexes(new int[] { 1, 2 }, 3);
+            PerformantHeroLevelFinder goodHeroFinder = new PerformantHeroLevelFinder();
+            goodHeroFinder.FindHeroIndexes(new int[] { 1, 2 }, 3);
         }
     }
 }
